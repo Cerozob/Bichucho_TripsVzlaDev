@@ -1,0 +1,228 @@
+body {
+	font-family: "Poppins", sans-serif !important;
+	overflow-x: hidden;
+}
+
+section {
+	width: 100%;
+	height: max-content;
+	max-height: 100vh;
+}
+
+#linkRegister {
+	font-style: bold !important;
+	color: white;
+}
+
+#buttonRegister {
+	font-weight: bolder;
+	font-size: 40pt;
+	background: linear-gradient(#e74922, #ec8e1e);
+	border-width: 0px;
+	border-radius: 30px;
+	width: 100%;
+	height: 100px;
+	transition: ease-in-out;
+	transition-duration: 0.15s;
+	outline: 0;
+	vertical-align: middle;
+}
+
+#buttonContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#buttonRegister:hover,
+#buttonRegister:focus,
+#buttonRegister:active {
+	scale: 0.8;
+}
+
+#gradientSeparator {
+	background: linear-gradient(#e74922, #ec8e1e, #ec8e1e);
+	height: 4px;
+	margin-left: -40%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#titulosomos {
+	font-size: 3vw;
+	font-weight: 500;
+	color: #ec8e1e;
+	line-height: 10px;
+}
+
+#titleBanner {
+	display: flex;
+	flex-direction: column;
+	max-width: max-content;
+}
+
+#naranjainternet {
+	font-size: 50pt;
+	font-weight: 700;
+	/* direction: rtl; */
+	width: max-content;
+	word-wrap: normal;
+	max-width: 100%;
+}
+
+.section1ContentColumn {
+	width: fit-content;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+#fondonino1 {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	right: 0px;
+	top: 0px;
+}
+
+#logotipo {
+	height: 5rem;
+	left: 10%;
+	top: 10%;
+	position: relative;
+}
+
+.titulo {
+	font-weight: bold;
+	color: white;
+}
+
+#titulosomos {
+	font-weight: normal;
+}
+
+#buttonDisclaimerText {
+	/* amongas */
+}
+#section1 {
+	height: 100vh;
+	background: url("assets/niño02\ 1.png") no-repeat top center;
+	background-size: cover;
+}
+
+#section1ContentRow {
+	/* background-color: aqua; */
+
+	height: 100%;
+	width: 100%;
+	flex-grow: 1;
+	align-content: center;
+	margin-left: 5%;
+	margin: auto;
+	width: fit-content;
+}
+
+p {
+	font-size: 25pt;
+	font-weight: 300;
+	color: white;
+}
+
+#section1contenttext {
+	width: fit-content;
+	margin-right: 5rem;
+	padding-bottom: 5rem;
+}
+
+.orangeBoldText {
+	font-weight: 700;
+	color: #ea5e22;
+}
+
+#section1innerrow {
+	margin-left: 5%;
+}
+
+#imgcontainersec2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5%;
+}
+
+#separadorseccion2 {
+	background: linear-gradient(#80ae2f, #8cbf40);
+	height: 4px;
+	width: 10vw;
+	position: absolute;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 0%;
+	align-self: flex-end;
+	width: 10vw;
+	overflow-x: visible;
+}
+
+#infosection2 {
+	padding: 5%;
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#imgsection2 {
+	object-fit: cover;
+}
+
+#nuestraapuesta {
+	font-weight: 500;
+	font-size: 30pt;
+	color: black;
+	position: relative;
+	top: 60%;
+	margin: auto;
+	margin-bottom: 1rem;
+	text-align: left;
+}
+
+#detecnologia {
+	font-weight: 700;
+	font-size: 57pt;
+	color: white;
+	position: relative;
+	top: 10%;
+}
+#parrafo1seccion2 {
+	font-size: 13pt;
+	position: relative;
+	top: 59%;
+}
+#parrafo2seccion2 {
+	font-size: 13pt;
+	position: relative;
+	top: 60%;
+}
+
+.boldtextseccion2 {
+	font-size: 13pt;
+	font-weight: 700;
+	color: black;
+}
+
+#section2 {
+	min-height: 100vh;
+	background: url("assets/Vector\ 1.svg") no-repeat bottom center;
+	background-size: cover;
+	background-position-y: bottom;
+	position: relative;
+}
+
+#textoaviso {
+	font-size: 0pt;
+	font-weight: 700;
+	position: relative;
+	color: black;
+	top: 0%;
+}
