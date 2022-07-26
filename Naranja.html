@@ -43,43 +43,94 @@
                 </div>
             </div>
     </section>
-    <section id="section2">
+    <section id="section2" class="row">
 
-        <div class="row">
-            <div class="col md-12 lg-6" id="imgcontainersec2">
-                <img id="imgsection2" src="assets/Fotografia.png" />
-            </div>
-            <div class="col md-12 lg-6" id="infosection2">
-                <h2 id="nuestraapuesta">Cúal es nuestra apuesta <br><span id="detecnologia">de tecnología:</span></h2>
-                <div>
-
-                    <div id="separadorseccion2"></div>
-                </div>
-                <p id="parrafo1seccion2">Conectar <span class="boldtextseccion2">toda la región del CHOCÓ</span>
-                    (inicialmente)
-                    a través de troncales de comunicación por vía
-                    de radio enlaces con antenas convencionales
-                    optimizadas con software de compresión de
-                    información.</p>
-                <p id="parrafo2seccion2">Ofreceremos un mejor servicio, <span class="boldtextseccion2">menos vulnerable
-                        a fallos, de alta velocidad</span> y permite tener redundancia
-                    del canal y una alternativa diferente a los usuarios.</p>
-            </div>
-
+        <div class="col md-12 lg-6" id="imgcontainersec2">
+            <img id="imgsection2" src="assets/Fotografia.png" />
         </div>
-       
-    <section id="section3">
-    <h3 id=textoaviso>¡Estas cansado/a de quedarte sin señalcuando más lo necesitas!</h3>
-    <p>Regístrate y conviértete en uno/a
-        de nuestros/as embajadores/as.
-        Ganarás descuentos y beneficios.</p>
-    <div id="buttonContainer">
-        <a href="https://www.youtube.com/watch?v=3OTIZcLWkeY" target="_blank">
-            <button id="buttonRegister" type="button" class="btn btn-primary">Regístrate Aquí</button>
-        </a>
-        <p id="buttonDisclaimerText">Formulario de solicitud del servicio</p>
-    </div>
+        <div class="col md-12 lg-6" id="infosection2">
+            <h2 class="titlebanner">Cúal es nuestra apuesta <br><span class="titlebannerfocus">de tecnología:</span>
+            </h2>
+            <div id="containerseparadorseccion2">
+                <div id="separadorseccion2"></div>
+            </div>
+            <p id="parrafo1seccion2">Conectar <span class="boldtextseccion2">toda la región del CHOCÓ</span>
+                (inicialmente)
+                a través de troncales de comunicación por vía
+                de radio enlaces con antenas convencionales
+                optimizadas con software de compresión de
+                información.</p>
+            <p id="parrafo2seccion2">Ofreceremos un mejor servicio, <span class="boldtextseccion2">menos vulnerable
+                    a fallos, de alta velocidad</span> y permite tener redundancia
+                del canal y una alternativa diferente a los usuarios.</p>
+        </div>
+
     </section>
+    <div class="row" id="section3banner">
+        <div class="col-12">
+            <h3 class="titlebanner" id="section3bannertext">¡Estas cansado/a de quedarte sin señal <br>
+                <span class="titlebannerfocus">cuando más lo necesitas!</span>
+            </h3>
+        </div>
+    </div>
+    <section id="section3" class="row">
+
+        <div class="row" id="section3content">
+            <div class="col-12" id="footercontainer">
+                <div id="containerseparadorseccion3">
+                    <div id="separadorseccion3"></div>
+                </div>
+                <div class="col-12" id="footer">
+
+                    <img src="assets/logo naranja internet-08 1.svg" />
+                </div>
+            </div>
+            <div class="col-lg-12 col-xl-4" id="registratetextcontainer">
+                <div class="row" id="section3container">
+                    <div class="col-1" id="greentrianglecontainer">
+                        <img id="greentriangle" src="assets/Polygon 1.svg" />
+                    </div>
+
+                    <div class="col-11" id="section3paragraphcontainer">
+                        <p id="section3paragraph">Regístrate y conviértete en uno/a
+                            de <span id="section3bold">nuestros/as embajadores/as.</span>
+                            Ganarás descuentos y beneficios.</p>
+                    </div>
+                </div>
+                <div class="row" id="buttonContainer">
+                    <a id="buttonlink"
+                        href="https://docs.google.com/forms/d/15tpQu31xZ04jY3QPuQ57KTfhulfPpEsW3uWFBjfP6lM"
+                        target="_blank">
+                        <button id="buttonRegister" type="button" class="btn btn-warning">Regístrate Aquí</button>
+                    </a>
+                    <p id="buttonDisclaimerText">Formulario de solicitud del servicio</p>
+                </div>
+            </div>
+            <div class="col-lg-12 col-xl-4" id="mujerimagencontainer">
+                <img id="mujerimagen" src="assets/mujer alegre con celular 1.png" />
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- simple js to handle women image positioning -->
+    <script type="text/javascript">
+        const resize = () => {
+            const womenImage = document.getElementById("mujerimagencontainer")
+            const viewport_lg = 1200
+            const width = window.innerWidth
+            // const width = document.documentElement.clientWidth;
+            if (width <= viewport_lg) {
+                womenImage.style.height = "250%"
+            }
+            else {
+                womenImage.style.height = "100%"
+            }
+        }
+        window.onresize = resize
+        resize()
+    </script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
