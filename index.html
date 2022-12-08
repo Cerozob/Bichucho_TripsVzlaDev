@@ -117,12 +117,22 @@
     <!-- simple js to handle women image positioning -->
     <script type="text/javascript">
         const resize = () => {
+
             const womenImage = document.getElementById("mujerimagencontainer")
+            /* 
+                viewport_lg es como el tamaño de referencia (1200 pixeles)
+                se usa para ver si la pantalla es mas ancha o menos ancha,
+                si es mas ancha es un pc, si es menos ancha es un celu
+            */
             const viewport_lg = 1200
-            const width = window.innerWidth
-            // const width = document.documentElement.clientWidth;
+            const width = window.innerWidth // este es el ancho de la pantalla del usuario
+            // const width = document.documentElement.clientWidth; <- otra forma de obtener el ancho de la pantalla
             if (width <= viewport_lg) {
-                womenImage.style.height = "250%"
+                // si estoy en un celu, haga esto
+                womenImage.style.height = "250%" // esto cambia el css de la imagen de la mujer
+                /*
+                    womenImage es la imagen, .style es el css, agregar .height es cambiar el height de css, se puede usar cualquier cosa como .color y asi
+                */
             }
             else {
                 womenImage.style.height = "100%"
